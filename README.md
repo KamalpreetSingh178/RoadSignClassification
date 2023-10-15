@@ -1,2 +1,2 @@
 # RoadSignClassification
-Classifying Road Signs into three Categories using YoloV6
+Classifying Road Signs into Categories using YoloV6
