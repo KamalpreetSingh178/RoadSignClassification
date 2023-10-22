@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Sign Classifier</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav>
+        <ul><li>YOLOv6 Road Sign Classifier</li></ul>
+    </nav>
+
+    <div>
+        <h1>Welcome to our Road Sign Classifier</h1>
+    </div>
+
+    <div class="sampleImages">
+        <p>Sample Images on which our Model has worked on-</p>
+        <div class="div1">
+            <img class="images" src="Images/00000.jpg">
+            <img class="images" src="Images/00002.jpg">
+            <img class="images" src="Images/00004.jpg">
+            <img class="images" src="Images/00005.jpg">
+        </div>
+    </div>
+    <form> 
+        <input class="btn" type="file" id="InputImage" accept="image/*"> 
+        <!--Copying from ClipBoard-->
+        <!-- <textarea id="target">Paste an image here</textarea>
+            <script>
+            const target = document.getElementById('target');
+
+            target.addEventListener('paste', (e) => {
+                e.preventDefault();
+                // doSomethingWithFiles(e.clipboardData.files);
+            });
+            </script> -->
+        
+    </form>
+
+    <script src="Script.js"></script>
+</body>
+</html>
